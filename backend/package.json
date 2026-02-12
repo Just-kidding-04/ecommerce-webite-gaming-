@@ -1,0 +1,26 @@
+{
+  "name": "gamingstore-backend",
+  "version": "0.1.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "5.1.0",
+    "cors": "2.8.5",
+    "dotenv": "^17.2.4",
+    "express": "4.18.2",
+    "jsonwebtoken": "9.0.2",
+    "morgan": "1.10.0",
+    "multer": "1.4.5-lts.1",
+    "mysql2": "^3.17.0",
+    "nodemailer": "^8.0.1",
+    "sequelize": "^6.32.1",
+    "sqlite3": "5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.22"
+  }
+}
